@@ -22,12 +22,12 @@
 Moving Zeros To The End: *Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.*
 ```javascript 
     var moveZeros = function (arr) {
-    var temp = arr.filter(e => e !== 0);
-    var number = arr.length - temp.length;
-    for (var i = 0; i < number; i++) {
-        temp.push(0);
-    }
-    return temp;
+        var temp = arr.filter(e => e !== 0);
+        var number = arr.length - temp.length;
+        for (var i = 0; i < number; i++) {
+            temp.push(0);
+        }
+        return temp;
     }
 ```
 # Education
