@@ -33,7 +33,7 @@
 * **Siedlce University of Natural Sciences and Humanities**
     * Informatics (specialization: data bases programming)
 * **Udemy**
-    * [Microservices with Node JS and React (in process)](https://www.udemy.com/course/microservices-with-node-js-and-react/)"
+    * [Microservices with Node JS and React (in process)](https://www.udemy.com/course/microservices-with-node-js-and-react/)
 # Languages
 * **English:** B1-B2
 * **Polish:** B2
