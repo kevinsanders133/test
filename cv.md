@@ -5,11 +5,11 @@
 * **GitHub:** [@kevinsanders133](https://github.com/kevinsanders133)
 # About Me
 ## I'm 20 years old and I'm studying informatics at University of Natural Sciences and Humanities in Siedlce (Poland). My goal is to gain knowledge in the field of front-end development. I want to work in EPAM.
-# **My strengths:**
-* Quick learner
-* Full immersion in the essence of the problems
-* Diligence
-* Team playing
+* **My strengths:**
+    * Quick learner
+    * Adaptability
+    * Diligence
+    * Team playing
 # Skills
 * HTML
 * CSS (SASS/SCSS, BEM)
