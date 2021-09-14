@@ -5,7 +5,7 @@
 * **E-mail:** [fairytailetyp@gmail.com](fairytailetyp@gmail.com)
 * **GitHub:** [@kevinsanders133](https://github.com/kevinsanders133)
 # About Me
-## I am 20 years old, I'm studying informatics at University of Natural Sciences and Humanities in Siedlce (Poland). I really want to work in EPAM. My goal is to gain knowledge in the field of front-end development.
+## I am 20 years old, I'm studying informatics at University of Natural Sciences and Humanities in Siedlce (Poland). I want to work in EPAM. My goal is to gain knowledge in the field of front-end development.
 # **My strengths:**
 * Quick learner
 * Full immersion in the essence of the problems
@@ -14,7 +14,7 @@
 # Skills
 * HTML
 * CSS (SASS/SCSS, BEM)
-* JavaScript (fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript, basics of Node.js(express.js framework))
+* JavaScript (fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript, basics of Node.js (Express framework))
 * Basics of TypeScript
 * Basics of Docker
 * Git/GitHub
