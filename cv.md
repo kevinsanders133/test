@@ -1,11 +1,10 @@
-# [rsschool-cv](https://kevinsanders133.github.io/rsschool-cv/)
 # Konstantin Savastsenia
 # My Contact Info:
 * **Phone:** +48 795 789 915
 * **E-mail:** [fairytailetyp@gmail.com](fairytailetyp@gmail.com)
 * **GitHub:** [@kevinsanders133](https://github.com/kevinsanders133)
 # About Me
-## I am 20 years old, I'm studying informatics at University of Natural Sciences and Humanities in Siedlce (Poland). I want to work in EPAM. My goal is to gain knowledge in the field of front-end development.
+## I'm 20 years old and I'm studying informatics at University of Natural Sciences and Humanities in Siedlce (Poland). My goal is to gain knowledge in the field of front-end development. I want to work in EPAM.
 # **My strengths:**
 * Quick learner
 * Full immersion in the essence of the problems
@@ -14,11 +13,13 @@
 # Skills
 * HTML
 * CSS (SASS/SCSS, BEM)
-* JavaScript (fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript, basics of Node.js (Express framework))
+* JavaScript (fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript, OOP, basics of Node.js (Express framework))
 * Basics of TypeScript
 * Basics of Docker
+* SQL (MySQL)
 * Git/GitHub
 # Code Examples
+Moving Zeros To The End: *Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.*
 ```javascript 
     var moveZeros = function (arr) {
     var temp = arr.filter(e => e !== 0);
@@ -33,7 +34,7 @@
 * **Siedlce University of Natural Sciences and Humanities**
     * Informatics (specialization: data bases programming)
 * **Udemy**
-    * [Microservices with Node JS and React (in process)](https://www.udemy.com/course/microservices-with-node-js-and-react/)
+    * [Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/) (in process)
 # Languages
 * **English:** B1-B2
 * **Polish:** B2
