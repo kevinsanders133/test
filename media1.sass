@@ -1,0 +1,618 @@
+@media screen and (max-width: 1024px)
+  body
+    min-width: 1024px
+
+  h1
+    font-size: 28px
+    line-height: 31px
+    letter-spacing: 5px
+    text-transform: uppercase
+
+  h2
+    font-family: Forum
+    font-style: normal
+    font-weight: normal
+    font-size: 50px
+    line-height: 90px
+    letter-spacing: 5px
+    text-transform: uppercase
+
+  header, section, footer
+    max-width: 1024px
+
+  section, .parallax
+    margin-top: 0
+    margin-bottom: 0
+    
+  .video-section
+    margin-top: 0
+
+  .container
+    max-width: 984px
+
+  .underline-title
+    &::after
+      content: ""
+      position: absolute
+      bottom: -20px
+      left: 0
+      right: 0
+      height: 3px
+      background-color: #710707
+  /* ------------------------------------------------------------------------------------ */
+  /* ----------------------------------- HEADER START ----------------------------------- */
+  /* ------------------------------------------------------------------------------------ */
+  .header
+    height: 130px
+    &__container
+      height: 130px
+      
+  .logo
+    width: 199px
+    max-width: 199px
+    height: 33px
+    margin-bottom: 7px
+    &__image
+      width: 49px
+      height: 26px
+    h1
+      margin-top: 12px
+
+  .navigation
+    width: 775px
+    display: none
+    &__item
+      font-weight: 200
+      font-size: 22px
+      line-height: 26px
+      letter-spacing: 2px
+  /* ---------------------------------------------------------------------------------- */
+  /* ----------------------------------- HEADER END ----------------------------------- */
+  /* ---------------------------------------------------------------------------------- */
+
+
+  /* ---------------------------------------------------------------------------------- */
+  /* ----------------------------------- MAIN START ----------------------------------- */
+  /* ---------------------------------------------------------------------------------- */
+
+  /* ----------------------------------- WELCOME SECTION START ----------------------------------- */
+  .welcome
+    &__container
+      height: 585px
+      background-size: 700px
+    &__header
+      width: 400px
+      height: 343px
+      margin-top: 50px
+      p
+        font-weight: 300
+        font-size: 24px
+        line-height: 28px
+        letter-spacing: 2px
+        margin-bottom: 50px
+    &__discover
+      width: 300px
+      height: 60px
+      border-radius: 10px
+      font-style: normal
+      font-weight: 300
+      font-size: 20px
+      line-height: 23px
+      text-align: center
+      letter-spacing: 2px
+    &__slider
+      width: 700px
+      height: 120px
+    &__num
+      margin-left: 224px
+      font-weight: normal
+      font-size: 20px
+      line-height: 40px
+      & span:first-child
+        margin-right: 10px
+      & span:last-child
+        margin-left: 10px
+    &__carousel
+      display: flex
+      justify-content: space-between
+      align-items: center
+      width: 160px
+      height: 40px
+      margin-left: 45px
+      margin-right: 45px
+      div
+        width: 12px
+        height: 12px
+    &__arrows
+      width: 80px
+      height: 8px
+      margin-right: 75px
+      button
+        height: 30px
+  /* ----------------------------------- WELCOME SECTION END ----------------------------------- */
+
+  /* ----------------------------------- VISITING SECTION STRART ----------------------------------- */
+  .visiting
+    width: 1024px
+    height: 1433px
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+      width: 330px
+      height: 215px
+    &__container
+      width: 984px
+      height: 1313px
+      margin: 0
+    &__title
+      h2
+        font-family: Forum
+        font-style: normal
+        font-weight: normal
+        font-size: 50px
+        line-height: 75px
+        letter-spacing: 5px
+      h2
+    &__cards
+      width: 768px
+      height: 1115px
+      margin: 0 auto
+      margin-top: 83px
+    &__card
+      width: 330px
+      height: 345px
+      margin-bottom: 60px
+      &:hover
+        h3::after
+          width: 330px
+      h3
+        font-family: Forum
+        font-style: normal
+        font-weight: normal
+        font-size: 28px
+        line-height: 31px
+        letter-spacing: 3px
+        text-transform: uppercase
+      h3::after
+        bottom: -11px
+        width: 150px
+        height: 2px
+      p span:first-child
+        font-style: normal
+        font-weight: 200
+        font-size: 20px
+        line-height: 23px
+      p span:last-child
+        font-style: normal
+        font-weight: 200
+        font-size: 16px
+        line-height: 19px
+  /* ----------------------------------- VISITING SECTION END ----------------------------------- */
+
+
+  /* ----------------------------------- EXPLORE SECTION START ----------------------------------- */
+  .explore
+    margin: 0
+    height: 1149px
+    display: flex
+    align-items: center
+    &__container
+      flex-direction: column
+      height: 1029px
+      width: 984px
+    &__description
+      width: 984px
+      height: 715px
+      h2
+        font-family: Forum
+        font-style: normal
+        font-weight: normal
+        font-size: 50px
+        line-height: 75px
+        letter-spacing: 5px
+      p
+        margin-top: 0
+        font-family: Roboto
+        font-style: normal
+        font-weight: 300
+        font-size: 20px
+        line-height: 38px
+      & p:first-of-type
+        margin-top: 83px
+      & p:last-of-type
+        display: none
+      span
+
+    &__slider
+      height: 715px
+      img
+        margin-top: 62px
+  /* ----------------------------------- EXPLORE SECTION END ----------------------------------- */
+
+
+  /* ----------------------------------- VIDEO SECTION START ----------------------------------- */
+  .video
+    height: 1001px
+    width: 1024px
+    display: flex
+    align-items: center
+    &__container
+      height: 881px
+    &__title
+      width: 984px
+      h2
+        font-weight: normal
+        font-size: 50px
+        line-height: 75px
+        letter-spacing: 5px
+      p
+        display: none
+    &__player
+      height: 735px
+      margin-top: 40px
+      video
+        width: 984px
+        height: 444px
+    &__screen
+      button
+        left: 416px
+        top: 146px
+        width: 152px
+        height: 152px
+        background-size: 152px
+        border-radius: 30px
+    &__control-panel
+      width: 984px
+      height: 60px
+      margin-top: -5px
+      button, input
+        margin: 0
+      & button:first-of-type
+        width: 23px
+        height: 30px
+        margin-left: 40px
+      .video__volume-button
+        margin-left: 31px
+      & button:last-of-type
+        margin-left: 30px
+      & input:first-of-type
+        margin-left: 30px
+      & input:last-of-type
+        margin-left: 31px
+      & img:first-of-type
+        width: 23px
+        height: 30px
+      & + img
+        width: 26px
+        height: 20px
+      & + button
+        width: 26px
+        height: 20px
+      button:last-of-type
+        width: 26px
+        height: 26px
+      img:last-of-type
+        width: 26px
+        height: 26px
+      input
+        height: 5px
+      input::-webkit-slider-thumb
+        width: 13px
+        height: 13px
+      & input:first-of-type
+        width: 564px
+      & input:last-of-type
+        width: 143px
+    &__footages
+      width: 984px
+      margin-top: 40px 
+      iframe
+    &__footage
+      width: 300px
+      height: 170px
+    &__slider
+      width: 200px
+      height: 12px
+      margin-top: 40px
+      button
+        width: 12px
+        height: 16px 
+      div
+        width: 12px
+        height: 12px
+      .active-circle
+    &__slider:hover .active-circle
+    &__arrow-left
+    &__arrow-right
+    &__arrow-left:hover
+    &__arrow-right:hover
+  /* ----------------------------------- VIDEO SECTION END ----------------------------------- */
+
+  /* ----------------------------------- GALLERY SECTION START ----------------------------------- */
+  .gallery
+    height: 1460px
+    display: flex
+    justify-content: center
+    align-items: center
+    &__container
+      height: 1400px
+      margin-top: 60px
+    h2
+      margin-top: 0
+      font-family: Forum
+      font-style: normal
+      font-weight: normal
+      font-size: 50px
+      line-height: 75px
+      letter-spacing: 5px
+    &__picture-inner-container
+      height: 2000px
+      column-count: 3
+      column-width: 304px
+      column-gap: 36px
+      margin-top: 60px
+      img
+        width: 304px
+        margin-bottom: 20px
+    &__picture-top
+      margin-top: 50px
+    &__gradient
+      width: 984px
+      height: 239px
+  /* ----------------------------------- GALLERY SECTION END ----------------------------------- */
+
+
+  /* ----------------------------------- TICKETS SECTION START ----------------------------------- */
+  .tickets
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 718px
+    &__container
+      height: 598px
+      h2
+        font-family: Forum
+        font-style: normal
+        font-weight: normal
+        font-size: 50px
+        line-height: 75px
+        letter-spacing: 5px
+        color: #9D8665
+    &__main
+      width: 984px
+      height: 440px
+      margin-top: 83px
+      img
+        width: 700px
+        height: 440px
+      .form
+        width: 204px
+        h3
+          font-weight: 700
+          font-size: 28px
+          line-height: 33px
+        &__ticket-type
+          display: none
+        &__amount
+          width: 204px
+          justify-content: flex-start
+          align-items: flex-start
+          h3
+            font-family: Roboto
+            font-style: normal
+            font-weight: bold
+            font-size: 28px
+            line-height: 33px
+          label
+            display: inline-block
+            width: 120px
+            height: 26px
+            font-family: Roboto
+            font-style: normal
+            font-weight: 300
+            font-size: 22px
+            line-height: 26px
+            margin-bottom: 10px
+            margin-top: 29px
+          label:first-of-type
+            margin-top: 29px
+          span:first-of-type
+            font-weight: bold
+            font-size: 28px
+            line-height: 33px
+            letter-spacing: 1.65px
+            margin-top: 25px
+          .amount
+            margin-left: 17.17px
+        &__number-container
+          width: 175px
+          height: 50px
+          margin: 0
+          border: 3px solid #030303
+          font-family: Roboto
+          font-style: normal
+          font-weight: 300
+          font-size: 22px
+          line-height: 26px
+          input
+            all: unset
+            width: 3em
+            text-align: center
+            margin-left: 19px
+          button
+            height: 38px
+            margin-bottom: 6px
+            border: 0
+            background-color: transparent
+            font-weight: 300
+            font-size: 32px
+            line-height: 37px
+          button:first-of-type
+            margin-left: 10px
+            margin-bottom: 6px
+          button:last-of-type
+            margin-right: 14px
+            margin-bottom: 3px
+        &__submit
+          margin-top: 69px
+          width: 175px
+          height: 50px
+          position: relative
+          overflow: hidden
+          transition: background 400ms
+          outline: 0
+          border: 0
+          cursor: pointer
+          color: #fff
+          font-family: Roboto
+          font-style: normal
+          font-weight: 300
+          font-size: 22px
+          line-height: 26px
+          letter-spacing: 2px
+          background-color: #030303
+        &__submit:hover
+          color: #000
+          background-color: #9D8665
+          transition: all 0.4s
+  span.ripple
+    position: absolute
+    border-radius: 50%
+    transform: scale(0)
+    animation: ripple 1s linear
+    animation-fill-mode: forwards
+    background-color: #fff
+  @keyframes ripple
+    to
+      transform: scale(4)
+      opacity: 0
+  /*--------------------------------------------- BUY FORM END ------------------------------------*/
+  /* ----------------------------------- TICKETS SECTION END ----------------------------------- */
+
+
+  /* ----------------------------------- PARALLAX START ----------------------------------- */
+  .parallax
+    margin: 0 auto
+    width: 1024px
+    height: 400px
+    background: url(./images/parallax.jpg)
+    background-size: cover
+    background-attachment: fixed
+  /* ----------------------------------- PARALLAX END ----------------------------------- */
+
+
+  /* ----------------------------------- CONTACTS SECTION START ----------------------------------- */
+  .contacts
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 734px
+    color: #030303
+    font-family: Roboto
+    font-style: normal
+    &__container
+      height: 614px
+    h2
+      font-family: Forum
+      font-style: normal
+      font-weight: normal
+      font-size: 50px
+      line-height: 75px
+      letter-spacing: 5px
+      color: #9D8665
+    &__main
+      display: flex
+      justify-content: space-between
+      width: 984px
+      margin-top: 83px
+      img
+        width: 694px
+        height: 454px
+    &__list
+      display: flex
+      flex-direction: column
+      width: 282px
+      h3
+        width: 227px
+        margin-bottom: 35px
+        width: 185px
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 24px
+        line-height: 28px
+      span
+        margin-bottom: 15px
+        font-style: normal
+        font-weight: 300
+        font-size: 20px
+        line-height: 23px
+      a
+        text-decoration: none
+        color: #030030
+  /* ----------------------------------- CONTACTS SECTION END ----------------------------------- */
+
+  /* -------------------------------------------------------------------------------- */
+  /* ----------------------------------- MAIN END ----------------------------------- */
+  /* -------------------------------------------------------------------------------- */
+
+
+  /* ------------------------------------------------------------------------------------ */
+  /* ----------------------------------- FOOTER START ----------------------------------- */
+  /* ------------------------------------------------------------------------------------ */
+  .footer
+    height: 368px
+    font-family: Roboto
+    font-weight: 100
+    font-size: 22px
+    line-height: 26px
+    letter-spacing: 2px
+    h2
+      font-family: Forum
+      font-style: normal
+      font-weight: 400
+      font-size: 28px
+      line-height: 31px
+      letter-spacing: 5px
+      margin-top: 10px
+    &__top
+      align-items: flex-start
+      height: 243px
+      .logo
+        margin-top: 60px
+    &__links
+      width: 313px
+      height: 128px
+      margin-top: 65px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      flex-wrap: wrap
+      row-gap: 20px
+      column-gap: 100px
+      margin-right: 92px
+      margin-left: 45px
+    &__social
+      width: 340px
+      margin-top: 145px
+      div
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: all 0.2s
+        width: 48px
+        height: 48px
+        border: 2px #666666 solid
+        border-radius: 50%
+    &__line
+      width: 100%
+      height: 3px
+      background-color: #666666
+    &__bottom
+      height: 124px
+    &__rss
+      margin-left: 135px
+  /* ---------------------------------------------------------------------------------- */
+  /* ----------------------------------- FOOTER END ----------------------------------- */
+  /* ---------------------------------------------------------------------------------- */

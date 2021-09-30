@@ -1,0 +1,1066 @@
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  
+body
+  color: white
+  min-width: 1500px
+
+h1
+  font-family: Forum
+  font-style: normal
+  font-weight: 400
+  font-size: 28px
+  line-height: 31px
+  letter-spacing: 5px
+  text-transform: uppercase
+
+h2
+  font-family: Forum
+  font-style: normal
+  font-weight: 400
+  font-size: 80px
+  line-height: 90px
+  letter-spacing: 5px
+  text-transform: uppercase
+
+ul
+  list-style-type: none
+
+header, section, footer
+  max-width: 1920px
+  margin: 0 auto
+
+section, .parallax
+  margin-top: 75px
+  margin-bottom: 75px
+
+.dark-section, footer
+  background-color: #030303
+  
+.video-section
+  margin-top: 75px
+
+.container
+  max-width: 1440px
+  margin: 0 auto
+
+.underline-title
+  position: relative
+  &::after
+    content: ""
+    position: absolute
+    bottom: -27px
+    left: 0
+    right: 0
+    height: 3px
+    background-color: #710707
+
+.close-iframe
+  position: fixed
+  width: 45px
+  height: 45px
+  background-color: #710707
+  color: #fff
+  border: 0
+  border-radius: 50%
+  right: 70px
+  top: 8px
+  display: none
+  cursor: pointer
+  font-family: Roboto
+  font-style: normal
+  font-size: 10px
+  font-weight: 400
+  letter-spacing: 1px
+  text-transform: uppercase
+  transition: all 0.3s
+  z-index: 60
+.close-iframe:hover
+  color: #000
+  background-color: #9D8665
+  transition: all 0.3s
+a[data-goto], .footer__bottom a
+  transition: all 0.3s
+a[data-goto]:hover, .footer__bottom a:hover
+  transition: all 0.3s
+  color: #9D8665
+a[data-goto]:active, .footer__bottom a:active
+  transition: all 0.3s
+  color: #7E6C51
+/* ------------------------------------------------------------------------------------ */
+/* ----------------------------------- HEADER START ----------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+.header
+  height: 150px
+  background-color: #030303
+  &__container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 150px
+    background-color: #030303
+    
+.logo
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 199px
+  max-width: 199px
+  height: 33px
+  &__image
+    width: 49px
+    height: 26px
+    background: url('./images/logo.svg') no-repeat
+
+.navigation
+  display: flex
+  justify-content: space-between
+  width: 775px
+  &__item
+    font-family: Roboto
+    font-style: normal
+    font-weight: 200
+    font-size: 22px
+    line-height: 26px
+    letter-spacing: 2px
+  &__link
+    color: #fff
+    text-decoration: none
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- HEADER END ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- MAIN START ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+/* ----------------------------------- WELCOME SECTION START ----------------------------------- */
+.welcome
+  color: #fff
+  margin-top: 0
+  &__container
+    position: relative
+    display: flex
+    justify-content: space-between
+    height: 810px
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url('./images/mona.svg') no-repeat
+    background-position: right top
+  &__header
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    width: 598px
+    max-width: 598px
+    height: 388px
+    margin-top: 150px
+    p
+      font-family: Roboto
+      font-style: normal
+      font-weight: 300
+      font-size: 28px
+      line-height: 33px
+      letter-spacing: 2px
+      margin-top: 25px
+      margin-bottom: 75px
+  &__discover
+    width: 360px
+    height: 75px
+    background: #710707
+    color: #fff
+    border: 0
+    border-radius: 10px
+    transition: background 0.3s
+    font-family: Roboto
+    font-style: normal
+    font-weight: 300
+    font-size: 22px
+    line-height: 26px
+    letter-spacing: 2px
+    cursor: pointer
+  iframe
+    position: fixed
+    display: none
+    width: 100%
+    height: 100%
+    border: 0
+    top: 0
+    left: 0
+    z-index: 50
+  &__discover:hover
+    background: #9D8665
+    transition: background 0.3s
+  &__slider
+    background-color: #030303
+    position: absolute
+    right: 0
+    bottom: 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 600px
+    height: 120px
+  &__num
+    margin-left: 74px
+    font-family: Roboto
+    font-style: norm
+    font-weight: 400
+    font-size: 22px
+    line-height: 40px
+    & span:first-child
+      margin-right: 10px
+    & span:last-child
+      margin-left: 10px
+  &__carousel
+    width: 180px
+    height: 16px
+    display: flex
+    justify-content: space-between
+    margin-left: 55px
+    margin-right: 60px
+    div
+      width: 16px
+      height: 16px
+      background-color: white
+    & div:first-child
+      background-color: #D2B183
+  &__arrows
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 80px
+    height: 8px
+    margin-right: 75px
+    button
+      display: flex
+      align-items: center
+      height: 30px
+      outline: 0
+      border: 0
+      background: transparent
+      cursor: pointer
+    img
+      transition: all 0.3s
+    button:hover img
+      transition: all 0.3s
+      filter: invert(55%) sepia(8%) saturate(1328%) hue-rotate(356deg) brightness(96%) contrast(89%)
+/* ----------------------------------- WELCOME SECTION END ----------------------------------- */
+
+/* ----------------------------------- VISITING SECTION STRART ----------------------------------- */
+.visiting
+  img
+    width: 440px
+    height: 285px
+    cursor: pointer
+  &__container
+    height: 1116px
+    color: #030303
+  &__title
+    color: #9D8665
+  &__cards
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    flex-wrap: wrap
+    height: 955px
+    margin-top: 103px
+  &__card
+    font-style: normal
+    margin-bottom: 75px
+    &:hover
+      h3::after
+        width: 440px
+        transition: width 0.8s
+    h3
+      font-family: Forum
+      font-weight: 400
+      font-size: 32px
+      line-height: 35px
+      letter-spacing: 5px
+      text-transform: uppercase
+      margin-top: 22px
+    h3::after
+      bottom: -11px
+      width: 300px
+      height: 2px
+      transition: width 0.8s
+    p span:first-child
+      font-family: Roboto
+      font-weight: 200
+      font-size: 22px
+      line-height: 26px
+      display: inline-block
+      margin-top: 22px
+    p span:last-child
+      font-family: Roboto
+      font-weight: 200
+      font-size: 18px
+      line-height: 21.09px
+      display: inline-block
+      margin-top: 10px
+  iframe
+    position: fixed
+    display: none
+    width: 100%
+    height: 100%
+    border: 0
+    top: 0
+    left: 0
+    z-index: 50
+/* ----------------------------------- VISITING SECTION END ----------------------------------- */
+
+
+/* ----------------------------------- EXPLORE SECTION START ----------------------------------- */
+.explore
+  &__container
+    max-width: 1440px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 865px
+  &__description
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    width: 660px
+    height: 715px
+    p
+      margin-top: 27px
+      font-family: Roboto
+      font-style: normal
+      font-weight: 300
+      font-size: 22px
+      line-height: 38px
+    & p:first-of-type
+      margin-top: 103px
+    span
+      color: #9D8665
+  &__slider
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    height: 715px
+    img
+      width: 720px
+      height: 700px
+/* ----------------------------------- EXPLORE SECTION END ----------------------------------- */
+
+
+/* ----------------------------------- VIDEO SECTION START ----------------------------------- */
+.video
+  &__container
+    display: flex
+    flex-direction: column
+    align-items: center
+    height: 1246px
+  &__title
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 1440px
+    h2
+      color: #9D8665
+    p
+      width: 720px
+      font-family: Roboto
+      font-style: normal
+      font-weight: 300
+      font-size: 22px
+      line-height: 38px
+      color: #030303
+  &__player
+    height: 735px
+    margin-top: 75px
+    video
+      width: 1440px
+      height: 650px
+  &__screen
+    position: relative
+    button
+      position: absolute
+      left: 610px
+      top: 216px
+      width: 224px
+      height: 224px
+      background: url('./images/video/big-play.svg') no-repeat
+      outline: 0
+      border: 0
+      border-radius: 30px
+      cursor: pointer
+  &__control-panel
+    display: flex
+    align-items: center
+    width: 1440px
+    height: 85px
+    margin-top: -3.5px
+    background-color: #030303
+    button
+      background-color: transparent
+      outline: 0
+      border: 0
+    & button:last-of-type:hover img
+      transition: all 0.4s
+      opacity: 0.6
+    img
+      transition: all 0.4s
+      cursor: pointer
+    button, input
+      margin-left: 50px
+    & button:first-child
+      margin-left: 30px
+    input
+      height: 8px
+      background: linear-gradient(to right, #710707 0%, #710707 40%, #C4C4C4 40%, #C4C4C4 100%)
+      outline: none
+      transition: background 450ms ease-in
+      -webkit-appearance: none
+    input::-webkit-slider-thumb
+      width: 15px
+      height: 15px
+      border-radius: 50%
+      -webkit-appearance: none
+      cursor: pointer
+      background: #fff
+    & input:first-of-type
+      width: 929px
+    & input:last-of-type
+      width: 155px
+  &__footages
+    width: 1440px
+    display: flex
+    justify-content: space-between
+    margin-top: 40px 
+    iframe
+      border: 0
+  &__footage
+    width: 452px
+    height: 254px
+    background-color: black
+  &__slider
+    display: flex
+    justify-content: space-between
+    width: 200px
+    margin-top: 40px
+    transition: background-color 0.3s
+    button
+      outline: 0
+      border: 0
+      width: 12px
+      height: 16px 
+      cursor: pointer
+    div
+      width: 12px
+      height: 12px
+      border-radius: 50%
+      background-color: #999999
+    .active-circle
+      background-color: #030303
+      transition: background-color 0.3s
+  &__slider:hover .active-circle
+    background-color: #710707
+    transition: background-color 0.3s
+  &__arrow-left
+    transition: background 0.3s
+    background: url('./images/video/arrow-left.svg') no-repeat
+  &__arrow-right
+    transition: background 0.3s
+    background: url('./images/video/arrow-right.svg') no-repeat
+  &__arrow-left:hover
+    transition: background 0.3s
+    background: url('./images/video/red_left.svg') no-repeat
+  &__arrow-right:hover
+    transition: background 0.3s
+    background: url('./images/video/red_right.svg') no-repeat
+    
+      
+/* ----------------------------------- VIDEO SECTION END ----------------------------------- */
+
+/* ----------------------------------- GALLERY SECTION START ----------------------------------- */
+.gallery
+  height: 2200px
+  &__container
+    position: relative
+    height: 2200px
+    overflow-y: hidden
+  h2
+    margin-top: 75px
+  &__picture-inner-container
+    height: 2000px
+    column-count: 3
+    column-width: 456px
+    column-gap: 36px
+    margin-top: 75px
+    img
+      width: 456px
+      height: auto
+      margin-bottom: 20px
+  &__picture-top
+    margin-top: 50px
+  &__gradient
+    position: absolute
+    bottom: 0
+    width: 1440px
+    height: 360px
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%)
+/* ----------------------------------- GALLERY SECTION END ----------------------------------- */
+
+
+/* ----------------------------------- TICKETS SECTION START ----------------------------------- */
+.tickets
+  &__container
+    display: flex
+    flex-direction: column
+    height: 743px
+    h2
+      color: #9D8665
+  &__main
+    display: flex
+    justify-content: space-between
+    margin-top: 103px
+    img
+      width: 720px
+      height: 550px
+    .form
+      display: flex
+      justify-content: space-between
+      width: 660px
+      color: #030303
+      h3
+        font-family: Roboto
+        font-style: normal
+        font-weight: 700
+        font-size: 28px
+        line-height: 33px
+      &__ticket-type
+        display: flex
+        flex-direction: column
+        label
+          position: relative
+          padding-left: 40px
+          font-family: Roboto
+          font-style: normal
+          font-weight: 300
+          font-size: 22px
+          line-height: 26px
+          margin-top: 25px
+        label:first-of-type
+          margin-top: 50px
+        /* Hide the browser's default radio button */
+        input
+          position: absolute
+          opacity: 0
+          cursor: pointer
+        /* Create a custom radio button */
+        .checkmark
+          position: absolute
+          top: 3px
+          left: 0
+          height: 17px
+          width: 17px
+          background-color: #fff
+          border: 2px solid #030303
+          border-radius: 50%
+        /* Create the indicator (the dot/circle - hidden when not checked) */
+        .checkmark:after 
+          content: ""
+          position: absolute
+          display: none
+        /* Show the indicator (dot/circle) when checked */
+        label input:checked ~ .checkmark:after 
+          display: block
+        /* Style the indicator (dot/circle) */
+        label .checkmark:after
+          top: 3px
+          left: 3px
+          width: 7px
+          height: 7px
+          border-radius: 50%
+          background: #030303
+      &__amount
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        label
+          display: inline-block
+          width: 150px
+          margin-bottom: 15px
+          font-family: Roboto
+          font-style: normal
+          font-weight: 300
+          font-size: 22px
+          line-height: 26px
+        label:first-of-type
+          margin-top: 25px
+        span:first-of-type
+          margin-top: 40px
+          font-family: Roboto
+          font-style: normal
+          font-weight: 700
+          font-size: 28px
+          line-height: 33px
+          letter-spacing: 1.65px
+      &__number-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 150px
+        height: 50px
+        margin-bottom: 10px
+        border: 4px solid #030303
+        font-family: Roboto
+        font-style: normal
+        font-weight: 300
+        font-size: 22px
+        line-height: 26px
+        input
+          all: unset
+          width: 3em
+          text-align: center
+          margin-left: 19px
+        button
+          height: 38px
+          margin-bottom: 6px
+          border: 0
+          background-color: transparent
+          font-weight: 300
+          font-size: 32px
+          line-height: 37px
+        button:first-of-type
+          margin-left: 10px
+          margin-bottom: 6px
+        button:last-of-type
+          margin-right: 14px
+          margin-bottom: 3px
+      &__submit
+        margin-top: 60px
+        width: 175px
+        height: 50px
+        position: relative
+        overflow: hidden
+        transition: background 400ms
+        outline: 0
+        border: 0
+        cursor: pointer
+        color: #fff
+        font-family: Roboto
+        font-style: normal
+        font-weight: 300
+        font-size: 22px
+        line-height: 26px
+        letter-spacing: 2px
+        background-color: #030303
+      &__submit:hover
+        color: #000
+        background-color: #9D8665
+        transition: all 0.4s
+span.ripple
+  position: absolute
+  border-radius: 50%
+  transform: scale(0)
+  animation: ripple 1s linear
+  animation-fill-mode: forwards
+  background-color: #fff
+@keyframes ripple
+  to
+    transform: scale(4)
+    opacity: 0
+
+.form-container
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 100%
+  background-color: rgb(255, 255, 255, 0.7)
+  &__close
+    position: fixed
+    display: none
+    width: 25px
+    height: 25px
+    top: 30px
+    right: 30px
+    cursor: pointer
+/*--------------------------------------------- BUY FORM START ------------------------------------*/
+.buy-form
+  width: 970px
+  height: 663px
+  background-color: #fff
+  display: none
+  justify-content: space-between
+  align-items: center
+  color: #030303
+  &__left
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 400px
+    height: 663px
+    h2
+      font-family: Forum
+      font-style: normal
+      font-weight: normal
+      font-size: 50px
+      line-height: 55px
+      text-transform: uppercase
+    img
+      margin-left: 10px
+      margin-right: 10px
+  &__date, &__time, &__name, &__email, &__tel, &__type
+    display: flex
+    align-items: center
+    width: 400px
+    height: 45px
+    border: 2px solid #030303
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    input
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 21px
+      height: 30px
+      border: 0
+      outline: 0
+    input::-webkit-input-placeholder
+      color: #030303
+      opacity: 1 !important
+  &__title-container
+    width: 400px
+    height: 143px
+    display: flex
+    flex-direction: column
+    
+  &__logo
+    width: 85px
+    height: 41px
+  &__title
+    font-family: Forum
+    font-style: normal
+    font-weight: normal
+    font-size: 50px
+    line-height: 55px
+    letter-spacing: 0px
+    text-transform: uppercase
+    color: #9D8665
+  &__date-wrapper, &__time-wrapper
+    width: 160px
+  &__type-wrapper
+    width: 370px
+  &__date-wrapper, &__time-wrapper, &__type-wrapper
+    position: relative
+    height: 17px
+    display: flex
+    img
+      margin-left: 0
+  &__date, &__time
+    width: 190px
+  &__date, &__time, &__type
+    display: flex
+    justify-content: center
+    align-items: center
+    input, select
+      position: absolute
+      right: 0
+      top: 0
+      width: 17px
+      height: 17px
+      opacity: 0
+      z-index: 5
+      cursor: pointer
+    input::-webkit-calendar-picker-indicator
+      position: absolute
+      right: 0
+      top: 0
+      width: 17px
+      height: 17px
+      margin: 0
+      padding: 0
+      z-index: 6
+      cursor: pointer
+    span
+      background: url('./images/tickets/arrow.svg') no-repeat
+      position: absolute
+      right: 0
+      top: 0
+      width: 17px
+      height: 17px
+      z-index: 4
+  &__old
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 400px
+    height: 135px
+    border: 2px solid #030303
+    label, input
+      height: 25px
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 21px
+      color: #030303
+    label
+      display: flex
+      justify-content: space-between
+      align-self: center
+      width: 370px
+    input
+      all: unset
+      width: 35px
+      background-color: white
+      text-align: center
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button
+      -webkit-appearance: none
+      -moz-appearance: textfield
+      margin: 0
+    button
+      width: 35px
+      height: 25px
+      border: 0
+      outline: 0
+      background-color: #030303
+      background-position: center
+      cursor: pointer
+  &__number-wrapper
+    display: flex
+    width: 105px
+    height: 25px
+  &__plus
+    background: url('./images/tickets/plus.svg') no-repeat
+  &__minus
+    background: url('./images/tickets/minus.svg') no-repeat
+  h3
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    color: #710707
+    &::after
+      content: ""
+      position: absolute
+      bottom: -5px
+      left: 0
+      right: 0
+      height: 2px
+      background-color: #710707
+  h4
+    font-family: Forum
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 20px
+    text-transform: capitalize
+    position: relative
+    color: #9D8665
+    &::after
+      content: ""
+      position: absolute
+      bottom: -5px
+      left: 0
+      right: 0
+      height: 2px
+      background-color: #710707
+  &__old-wrapper
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 370px
+    height: 110px
+
+
+  &__right
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    width: 530px
+    height: 663px
+    border: 1px #000 solid
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 14px
+    color: #161615
+    button
+      width: 240px
+      height: 45px
+      background-color: #710707
+      color: white
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 22px
+      line-height: 26px
+  &__credentials
+    display: flex
+    flex-direction: column
+  &__overview
+    position: relative   
+    h3
+      font-family: Roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 32px
+      line-height: 37px
+      color: #272727
+    h4
+      font-family: Roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 26px
+      color: #740C11
+      opacity: 0.9
+    div
+      font-family: Roboto
+      font-style: normal
+      font-weight: 300
+      font-size: 18px
+      line-height: 21px
+      color: #030303
+  &__overview-img
+    position: absolute
+    top: 0
+    right: 0
+
+/*--------------------------------------------- BUY FORM END ------------------------------------*/
+/* ----------------------------------- TICKETS SECTION END ----------------------------------- */
+
+
+/* ----------------------------------- PARALLAX START ----------------------------------- */
+.parallax
+  margin: 0 auto
+  max-width: 1920px
+  height: 400px
+  background: url(./images/parallax.jpg)
+  background-size: cover
+  background-attachment: fixed
+/* ----------------------------------- PARALLAX END ----------------------------------- */
+
+
+/* ----------------------------------- CONTACTS SECTION START ----------------------------------- */
+.contacts
+  display: flex
+  flex-direction: column
+  color: #030303
+  font-family: Roboto
+  font-style: normal
+  h2
+    color: #9D8665
+  &__main
+    display: flex
+    justify-content: space-between
+    width: 1440px
+    margin-top: 103px
+    img
+      width: 960px
+      height: 620px
+  &__list
+    display: flex
+    flex-direction: column
+    width: 282px
+    h3
+      width: 227px
+      margin-bottom: 52px
+      font-weight: 500
+      font-size: 28px
+      line-height: 33px
+    span
+      margin-bottom: 25px
+      font-weight: 300
+      font-size: 22px
+      line-height: 26px
+    a
+      text-decoration: none
+      color: #030030
+/* ----------------------------------- CONTACTS SECTION END ----------------------------------- */
+
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------------- MAIN END ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------ */
+/* ----------------------------------- FOOTER START ----------------------------------- */
+/* ------------------------------------------------------------------------------------ */
+.footer
+  height: 392px
+  font-family: Roboto
+  font-style: normal
+  font-weight: 200
+  font-size: 22px
+  line-height: 22px
+  letter-spacing: 2px
+  h2
+    font-family: Forum
+    font-style: normal
+    font-weight: 400
+    font-size: 28px
+    line-height: 31px
+    letter-spacing: 5px
+    text-transform: uppercase
+    margin-top: 10px
+  a
+    text-decoration: none
+    color: #fff
+  &__top, &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__top
+    align-items: flex-start
+    height: 265px
+    .logo
+      margin-top: 80px
+  &__links
+    width: 360px
+    height: 125px
+    margin-top: 90px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    flex-wrap: wrap
+    row-gap: 20px
+    column-gap: 172px
+    margin-right: 259px
+  &__social
+    display: flex
+    justify-content: space-between
+    width: 340px
+    margin-top: 162px
+    a:hover div
+      filter: invert(55%) sepia(13%) saturate(887%) hue-rotate(356deg) brightness(96%) contrast(89%)
+      transition: all 0.2s
+    div
+      display: flex
+      justify-content: center
+      align-items: center
+      transition: all 0.2s
+      width: 48px
+      height: 48px
+      border: 2px #666666 solid
+      border-radius: 50%
+  &__line
+    width: 100%
+    height: 3px
+    background-color: #666666
+  &__bottom
+    height: 124px
+  &__rss
+    margin-left: 135px
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- FOOTER END ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
